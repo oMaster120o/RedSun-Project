@@ -7,6 +7,7 @@
   
 > [!CAUTION]
 > I consider this malware as "Non-functional" and with that, i mean it doesn't fully work the way a real malware would, however it has the potential to cause some form of damage by: weakening the device, logging data and deleting important files.  
+> **This tool might not suit some scopes, as it will log almost everything written by the user.**  
   
 > [!CAUTION]
 > Using this against anyone or anything without the explicit permission of the owner of the device/system is a serious crime, which can get you behind bars pretty quickly, you are responsible for anything that happens from the time you download the sample and so on **YOU HAVE BEEN WARNED.**  
@@ -29,6 +30,7 @@
 ### Why i made this.   
 This project was mainly created to learn C, but also to have a an idea of how malware works and some techniques used on making them.  
 So far it not only helped me but might help someone who's starting to learn malware development for Linux, the code itself has a few comments, because i feel like you should learn and not copy-paste.  
+
   
 ### How it works.  
 The sample as a Keylogger is a Spyware malware type. It doesn't need to be executed as a super user or even using sudo, it only needs to be executed by **someone with sudo access.**  
